@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>add review page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form id="Register-form" action="dashboard.html">
+      <div class="form-group">
+        <label id="name-label" for="name">Company Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter the company name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="name-label" for="name">product purchased</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter about the product purchased"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="name-label" for="name">Date of Purchase</label>
+        <input
+          type="date"
+          name="name"
+          id="name"
+          class="form-control"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="name-label" for="name">Name of the Person</label>
+        <input
+          type="name"
+          name="name"
+          id="name"
+          class="form-control"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="name-label" for="name">Your Message</label>
+        <textarea name="name" rows="10" cols=""></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </body>
+  <script>
+    const bookButton = document.querySelector("#submit")
+    bookButton.addEventListener("click", ()=>{
+      alert("The review is submitted Thank you");
+    })
+  </script>
+</html>

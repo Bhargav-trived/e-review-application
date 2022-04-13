@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Login</h1>
+      </header>
+      <form id="Login-form" action="dashboard.html">
+        <div class="form-group">
+          <label id="email-label" for="email">login Id</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your login Id"
+            required
+          />
+        </div>
+       <div class="form-group">
+         <label for="password">Password</label>
+         <input
+           type="password"
+           name="password"
+           id="password"
+           class="form-control"
+           required
+         />
+       </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
